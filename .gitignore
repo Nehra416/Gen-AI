@@ -1,0 +1,49 @@
+# Node.js dependencies
+**/node_modules/
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+
+# Next.js build output
+.next/
+out/
+
+# Production
+build/
+
+# Testing
+coverage/
+
+# Vercel
+.vercel/
+
+# Environment variables
+.env
+.env.*  # e.g. .env.local, .env.development
+
+# Local env & secret files
+*.local
+*.secret
+
+# IDE settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Optional: lockfiles (uncomment if you don’t want to track them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Optional: ignore .turbo folder if using Turborepo
+.turbo/
